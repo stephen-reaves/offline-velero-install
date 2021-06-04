@@ -25,7 +25,10 @@ spec:
   config:
     insecureSkipTLSVerify: "true"
 ```
-
+to preform a quick backup of a namespace use:
 `velero backup create backup-name --include-namespaces my-namespace`
-
+to restore the backup you made use:
 `velero restore create --from-backup backup-name`
+
+
+see https://velero.io/docs/v1.6/ for more uses and information.
