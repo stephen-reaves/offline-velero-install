@@ -10,6 +10,8 @@ this is for a quick install of velero in a offline vsphere env using minio as a 
 
 install velero bin https://velero.io/docs/v1.6/basic-install/
 
+edit `credentials-velero` and change your creds
+
 ## Use
 
 run the `install-velero.sh` script after downloading the velero bin.
