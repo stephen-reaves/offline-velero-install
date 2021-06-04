@@ -5,7 +5,9 @@ this is for a quick install of velero in a offline vsphere env using minio as a 
 ## pre-req
 
 `docker pull velero/velero:v1.6.0`
+
 `docker pull velero/velero-plugin-for-aws:latest`
+
 install velero bin https://velero.io/docs/v1.6/basic-install/
 
 ## Use
